@@ -9,9 +9,9 @@
 		public $db;
 		public function _Db_ini(){
 			if(!$this->db){
-				$this->db=new MysqlAction('121.40.144.140','root','xtzlyp');
+				$this->db=new MysqlAction('','','');
 				$this->db->con();
-				$this->db->database('xtzlyp');
+				$this->db->database('');
 				$this->db->query("set names 'utf8'");//写库 
 			}
 		}
